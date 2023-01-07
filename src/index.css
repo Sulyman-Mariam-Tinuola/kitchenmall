@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+    font-family:'Kaushan Script'; 
+}
+/* img {
+    background-color: gray;
+} */
