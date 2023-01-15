@@ -18,53 +18,55 @@ const Product = () => {
 <button className='bg-rose-300 rounded-full p-2 text-white drop'><HiArrowNarrowRight size={'1.5rem'}/></button>
 </div> 
 </div>
-<div className='grid xl:grid-cols-4 md:grid cols-3 grid-cols-2 gap-4 -content-center'>
+<div className='flex xl:grid-cols-4 md:grid cols-3 grid-cols-2 gap-4 -content-centern'>
 <div className='h-[350px] space-y-2'>
-<img className='w-full h-4/5 object-cover border-rose-500' src='images/cooker.jpg' alt='cooker'/>
-<p className='font-semibold text-gray-600'>Oven gas cooker</p>
-<h1 className='text-xl font-semibold'>$700</h1>
+<img className='w-full h-4/5 object-contain border-rose-500 object-fit: contain' src='images/gas oven.jpg' alt='cooker'/>
+<div className='title'>
+<p className='oven title font-semibold text-gray-600'>Oven gas cooker</p>
+<h1 className='oven-price text-xl font-semibold'>$700</h1>
+</div>
 </div>
 
 <div className='h-[350px] space-y-2'>
-<img className='w-full h-4/5 object-cover border-rose-500' src='images/electrickettles.jpg' alt='kettle'/>
-<p className='font-semibold text-gray-600'>Electric kettle</p>
-<h1 className='text-xl font-semibold'>$500</h1>
+<img className='w-full h-4/5 object-contain border-rose-500 object-fit: contain' src='images/kettles.jpg' alt='kettle'/>
+<p className='kettle font-semibold text-gray-600'>Electric kettle</p>
+<h1 className='kettle-price text-xl font-semibold'>$500</h1>
 </div>
 
 <div className='h-[350px] space-y-2'>
-<img className='w-full h-4/5 object-cover border-rose-500' src='images/microwave.jpg' alt='microwave'/>
-<p className='font-semibold text-gray-600'>Microwave</p>
-<h1 className='text-xl font-semibold'>$900</h1>
+<img className='w-full h-4/5 object-cover border-rose-500 object-fit: contain' src='images/microwave.png' alt='microwave'/>
+<p className='micro font-semibold text-gray-600'>Microwave</p>
+<h1 className='micro-price text-xl font-semibold'>$900</h1>
 </div>
 
 <div className='h-[350px] space-y-2'>
-<img className='w-full h-4/5 object-cover border-rose-500' src='images/pots.jpg' alt='cooker'/>
-<p className='font-semibold text-gray-600'>Pots</p>
-<h1 className='text-xl font-semibold'>$300</h1>
+<img className='w-full h-4/5 object-cover border-rose-500' src='images/pot.jpg' alt='pot'/>
+<p className='pot font-semibold text-gray-600'>Pot</p>
+<h1 className='pot-price text-xl font-semibold'>$300</h1>
 </div>
 
 <div className='h-[350px] space-y-2'>
-<img className='w-full h-4/5 object-cover border-rose-500' src='images/blender-mixer.jpg' alt='blender'/>
-<p className='font-semibold text-gray-600'>Blender</p>
-<h1 className='text-xl font-semibold'>$600</h1>
+<img className='w-full h-4/5 object-contain border-rose-500 object-fit: contain' src='images/blenderr.jpg' alt='blender'/>
+<p className='blender font-semibold text-gray-600'>Blender</p>
+<h1 className='blender-price text-xl font-semibold'>$600</h1>
 </div>
 
 <div className='h-[350px] space-y-2'>
-<img className='w-full h-4/5 object-cover border-rose-500' src='images/bowl.jpg' alt='bowl'/>
-<p className='font-semibold text-gray-600'>Mixing bowl</p>
-<h1 className='text-xl font-semibold'>$200</h1>
+<img className='w-full h-4/5 object-contain border-rose-500 object-fit: contain ' src='images/bowl.jpg' alt='bowl'/>
+<p className='bowl font-semibold text-gray-600'>Mixing bowl</p>
+<h1 className='bowl-price text-xl font-semibold'>$200</h1>
 </div>
 
 <div className='h-[350px] space-y-2'>
-<img className='w-full h-4/5 object-cover border-rose-500' src='images/refrigerator.jpg' alt='fridge'/>
-<p className='font-semibold text-gray-600'>Refrigerator</p>
-<h1 className='text-xl font-semibold'>$900</h1>
+<img className='w-full h-4/5 object-cover border-rose-500 object-fit: contain' src='images/fridgee.jpeg' alt='fridge'/>
+<p className='fridge font-semibold text-gray-600'>Refrigerator</p>
+<h1 className='fridge-price text-xl font-semibold'>$900</h1>
 </div>
 
 <div className='h-[350px] space-y-2'>
-<img className='w-full h-4/5 object-cover border-rose-500' src='images/spoon.jpg' alt='spoon'/>
-<p className='font-semibold text-gray-600'>Set of spoon</p>
-<h1 className='text-xl font-semibold'>$500</h1>
+<img className='w-full h-4/5 object-cover border-rose-500' src='images/spoons.jpg' alt='spoon'/>
+<p className='spoon font-semibold text-gray-600'>Set of spoon</p>
+<h1 className='spoon-price text-xl font-semibold'>$500</h1>
 </div>
 </div>
 

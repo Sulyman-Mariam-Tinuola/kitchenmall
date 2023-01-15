@@ -8,9 +8,11 @@ const Footer = () => {
         <div className='space-y-5 py-5 border-b'>
           <h1 className='text-3xl font-bold'>Kitchenmall</h1>
           <div className='flex space-x-5'>
-            <img className='w-6 h-4/5 rounded-full' src='images/watsapp.jpg' alt='watsapp'/>
-            <img className='w-6 h-4/5 rounded-full' src='images/instagram.jpg' alt='instagram'/>
-            <img className='w-6 h-4/5 rounded-full' src='images/facebook.jpg' alt='facebook'/>
+            <a href='https://wa.link/u9nghi'>{<img className='w-6 h-4/5 rounded-full' src='images/watsapp.png' alt='watsapp'/>}</a>
+            
+            <a href='https://msng.link/o/?sulymam=ig'>{<img className='w-6 h-4/5 rounded-full' src='images/instagram.jpg' alt='instagram'/>}</a>
+            
+            <a href='https://www.facebook.com/sharer/sharer.php?u=kitchen%20mall.com'>{<img className='w-6 h-4/5 rounded-full' src='images/facebook.jpg' alt='facebook'/>}</a>
           </div>
         </div>
         <div className='flex flex-col space-y-3'>

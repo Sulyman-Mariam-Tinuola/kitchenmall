@@ -5,6 +5,78 @@
 .logo {
     font-family:'Kaushan Script'; 
 }
+
+ .oven {
+ margin-left: 7.5rem;
+}
+
+.oven-price {
+    margin-left: 7.5rem;
+}
+
+.kettle {
+    margin-left: 6rem; 
+   }
+   
+   .kettle-price {
+       margin-left: 6rem;
+   }
+
+   .micro {
+    margin-left: 7.5rem; 
+   }
+   
+   .micro-price {
+       margin-left: 7.5rem;
+   }
+
+   .pot {
+    margin-left: 11rem; 
+   }
+   
+   .pot-price {
+       margin-left: 10.8rem;
+   }
+
+   .blender {
+    margin-left: 9rem; 
+   }
+   
+   .blender-price {
+       margin-left: 8.9rem;
+   }
+
+   .bowl {
+    margin-left: 8.3rem; 
+   }
+   
+   .bowl-price {
+       margin-left: 8.2rem;
+   }
+
+   .fridge {
+    margin-left: 7.5rem;
+   }
+   
+   .fridge-price {
+       margin-left: 7.5rem;
+   }
+
+   .spoon {
+    margin-left: 8rem; 
+   }
+   
+   .spoon-price {
+       margin-left: 8rem;
+   }
+.title {
+    /* margin-left: 10rem;   */
+    /* padding-right: 8rem; */
+}  
+
+.amount {
+/* margin-left: 9.5rem; */
+}
 /* img {
     background-color: gray;
 } */

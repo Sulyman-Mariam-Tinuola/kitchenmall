@@ -14,7 +14,7 @@ const Hero = () => {
 </div>
         </div>
         <div className='hidden md:flex p-5'>
-<img className='w-[400px] h-[300px] border-8 border-gray-400 bg-gray'  src='images/blender.jpg' alt='blender'/>
+<img className='w-[400px] h-[300px] border-8 border-gray-400 bg-gray object-fit: contain'  src='images/blender.jpg' alt='blender'/>
         </div>
       </div>  
     </div>
